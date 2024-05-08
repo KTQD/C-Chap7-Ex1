@@ -6,8 +6,8 @@ echo "Running tests..."
 output=$(./a.out)
 
 # Định nghĩa output mong muốn cho từng phần
-expected_output1="Hello, World!"
-expected_output2="Done"
+expected_output1="Maximum value: 79"
+expected_output2="Minimum value: 5"
 
 # Kiểm tra expected_output1 và xoá khỏi output
 if echo "$output" | grep -q "$expected_output1"; then
